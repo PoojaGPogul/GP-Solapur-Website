@@ -1,0 +1,87 @@
+/**
+ * @name        Simple Photo Gallery
+ * @version	1.0: zoomstyle.css
+ * @since       Joomla 1.5
+ * @subpackage	com_simplephotogallery
+ * @author      Apptha
+ * @copyright   Copyright (C) 2011 Powered by Apptha
+ * @license     GNU/GPL http://www.gnu.org/copyleft/gpl.html
+ * @abstract    Css file for front-end styling.
+ */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#iviewer {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: url('../../images/bg_transblack.png');
+	display: none;
+	z-index: 91000;
+}
+
+	#iviewer .controls {
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 40px;
+	}
+
+		#iviewer .controls li {
+			
+			float: right;
+			clear: right;
+			position: relative;
+			width: 40px;
+			height: 40px;
+			background-repeat: no-repeat;
+			background-position: center center;
+			display: block;
+			cursor: pointer;
+			z-index: 3;
+		}
+
+			#iviewer .controls:hover {
+				cursor: pointer;
+			}
+
+			#iviewer .controls .close { background-image: url('../../images/btn_close.png'); margin-top: 35px; }
+			#iviewer .controls .zoomin { background-image: url('../../images/btn_zoomin.png'); }
+			#iviewer .controls .zoomout { background-image: url('../../images/btn_zoomout.png'); }
+
+	#iviewer .info {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		color: #ccc;
+		font-size: 16px;
+		padding: 0;
+	}
+
+	#iviewer .viewer {
+		position: fixed;
+		top: 0;
+		left: 40px;
+		z-index: 2;
+		display: none;
+	}
+
+	#iviewer .loader {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background: url('../../images/spinner.gif') no-repeat center center;
+		z-index: 2;
+	}
+	.viewer iviewer_cursor img{
+	display: block;
+	}
+	
+	.fullImageView td{
+	vertical-align: middle;
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.5.0" method="upgrade">
+	<name>Simple Photo Gallery</name>
+	<author>Apptha</author>
+    <creationDate>Copyright (C) 2014 Powered by Apptha</creationDate>
+    <copyright>Copyright (C) 2014</copyright>
+    <authorEmail>assist@apptha.com</authorEmail>
+    <authorUrl>http://www.apptha.com</authorUrl>
+    <version>1.1</version>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>Simple Photo Gallery</description>
+
+	<scriptfile>script.php</scriptfile>
+	<install>
+        <sql>
+            <file driver="mysql" charset="utf8">install.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">uninstall.sql</file>
+        </sql>
+    </uninstall>
+	<!-- Site Main File Copy Section -->
+	<files folder="site">
+        <filename>simplephotogallery.php</filename>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>router.php</filename>        
+        <folder>views</folder>
+        <folder>models</folder>
+        <folder>images</folder>
+        <folder>css</folder>
+        <folder>js</folder>
+        <folder>secure</folder>
+        <folder>language</folder>
+    </files>
+    <!-- Site Language File Copy Section -->
+		<languages folder="site">
+			<language tag="en-GB">language/en-GB.com_simplephotogallery.ini</language>
+			<language tag="en-GB">language/en-GB.com_simplephotogallery.sys.ini</language>
+		</languages>
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu img="components/com_simplephotogallery/images/apptha.gif">COM_PHOTOGALLERY</menu>
+	       	 <submenu>
+		        <menu img="components/com_simplephotogallery/images/albumicon.png" link="option=com_simplephotogallery&amp;view=album">COM_PHOTOGALLERY_ALBUMS</menu>
+		        <menu img="components/com_simplephotogallery/images/images-icon.png" link="option=com_simplephotogallery&amp;view=images">COM_PHOTOGALLERY_IMAGES</menu>
+		        <menu img="components/com_simplephotogallery/images/settings-icon16.png" link="option=com_simplephotogallery&amp;view=settings">COM_PHOTOGALLERY_SETTINGS</menu>
+	      	</submenu>
+		<files folder="admin">
+			<!-- Admin Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>install.sql</filename>
+            <filename>uninstall.sql</filename>
+            <filename>simplephotogallery.php</filename>
+            <folder>controllers</folder>
+            <folder>helpers</folder>
+            <folder>images</folder>
+            <folder>css</folder>
+            <folder>js</folder>
+            <folder>lib</folder>
+            <folder>models</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+		</files>   
+		<!-- Administration Language File Copy Section -->
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB.com_simplephotogallery.ini</language>
+			<language tag="en-GB">language/en-GB.com_simplephotogallery.sys.ini</language>
+		</languages>
+		
+	</administration>
+</extension>

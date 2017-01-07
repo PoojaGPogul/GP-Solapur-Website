@@ -1,0 +1,15 @@
+/**
+ * @name        Simple Photo Gallery
+ * @version	1.0: iestyle.css
+ * @since       Joomla 1.5
+ * @subpackage	com_simplephotogallery
+ * @author      Apptha
+ * @copyright   Copyright (C) 2011 Powered by Apptha
+ * @license     GNU/GPL http://www.gnu.org/copyleft/gpl.html
+ * @abstract    Css file for front-end styling.
+ */
+ 
+/* IE < 9 doesn't display the image for strange reasons... */
+		html.ielt9 #iviewer .viewer {
+			display: block;
+		}

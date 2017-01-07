@@ -1,0 +1,15 @@
+/**
+ * Album slider style for < IE9
+ *
+ * @category   Apptha
+ * @package    Com_Simplephotogallery
+ * @version    1.1
+ * @author     Apptha Team <developers@contus.in>
+ * @copyright  Copyright (C) 2014 Apptha. All rights reserved.
+ * @license    GNU General Public License http://www.gnu.org/copyleft/gpl.html
+ */
+ 
+/* IE < 9 doesn't display the image for strange reasons... */
+html.ielt9 #iviewer .viewer {display: block;}
+html, body {min-height: 100%; height: auto !important; height: 100%;}
+body * { line-height:1.22em; }

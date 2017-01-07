@@ -1,0 +1,151 @@
+/**
+ *------------------------------------------------------------------------------
+ *  iCicons font by Jooml!C
+ *------------------------------------------------------------------------------
+ * @copyright   Copyright (c)2012-2014 Cyril Rezé, Jooml!C - All rights reserved
+ *
+ * @license     GNU General Public License version 3 or later; see LICENSE.txt
+ * @author      Cyril Rezé (Lyr!C)
+ * @link        http://www.joomlic.com
+ *
+ * @version 	3.4.0 2014-06-25
+ * @since       3.2.2
+ *------------------------------------------------------------------------------
+*/
+
+@font-face {
+	font-family: 'iCicons';
+	src:url('fonts/iCicons.eot?-cr0h44');
+	src:url('fonts/iCicons.eot?#iefix-cr0h44') format('embedded-opentype'),
+		url('fonts/iCicons.woff?-cr0h44') format('woff'),
+		url('fonts/iCicons.ttf?-cr0h44') format('truetype'),
+		url('fonts/iCicons.svg?-cr0h44#iCicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="iCicon-"], [class*=" iCicon-"] {
+	font-family: 'iCicons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.iCicon-header-before:before {
+	content: "\e618";
+}
+.iCicon-header-after:before {
+	content: "\e617";
+}
+.iCicon-thumbs:before {
+	content: "\e60c";
+}
+.iCicon-form:before {
+	content: "\e616";
+}
+.iCicon-location:before {
+	content: "\e605";
+}
+.iCicon-clock:before {
+	content: "\e60d";
+}
+.iCicon-calendar:before {
+	content: "\e604";
+}
+.iCicon-calendar-2:before {
+	content: "\e603";
+}
+.iCicon-print:before {
+	content: "\e602";
+}
+.iCicon-disk:before {
+	content: "\e607";
+}
+.iCicon-people:before {
+	content: "\e60b";
+}
+.iCicon-private:before {
+	content: "\e608";
+}
+.iCicon-options:before {
+	content: "\e60f";
+}
+.iCicon-register:before {
+	content: "\e609";
+}
+.iCicon-timezone:before {
+	content: "\e601";
+}
+.iCicon-earth:before {
+	content: "\e600";
+}
+.iCicon-blocked:before {
+	content: "\e60a";
+}
+.iCicon-nextic:before {
+	content: "\25b6";
+}
+.iCicon-backic:before {
+	content: "\25c0";
+}
+.iCicon-backicY:before {
+	content: "\25c1";
+}
+.iCicon-nexticY:before {
+	content: "\25b7";
+}
+.iCicon-filter:before {
+	content: "\e611";
+}
+.iCicon-screen:before {
+	content: "\e60e";
+}
+.iCicon-minus:before {
+	content: "\e612";
+}
+.iCicon-info:before {
+	content: "\e613";
+}
+.iCicon-info-circle:before {
+	content: "\e614";
+}
+.iCicon-icons:before {
+	content: "\e610";
+}
+.iCicon-navigation:before {
+	content: "\e615";
+}
+
+/* BI-COLOR ICONS */
+.iCicon-bi-color-header:before {
+	content: "\e618";
+	letter-spacing: -1em;
+	color: #bebebe;
+}
+.iCicon-bi-color-header:after {
+	content: "\e617";
+	color: #ca0000;
+}
+
+/* ONE-COLOR ICONS */
+.iCicon-iclogo:before {
+	content: "\e606";
+	color: #990000;
+}
+
+/* ADDITIONAL STYLES */
+.iCicon-info-circle:active,
+.iCicon-info-circle:hover,
+.iCicon-info-circle:focus {
+	text-decoration: none !important;
+	background: none;
+	text-shadow:0px 0px 5px rgba(0,0,0,0.3);;
+	cursor: help;
+}

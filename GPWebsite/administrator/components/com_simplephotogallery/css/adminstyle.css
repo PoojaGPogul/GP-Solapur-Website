@@ -1,0 +1,173 @@
+/**
+ * Admin panel style sheet
+ *
+ * @category   Apptha
+ * @package    Com_Simplephotogallery
+ * @version    1.1
+ * @author     Apptha Team <developers@contus.in>
+ * @copyright  Copyright (C) 2014 Apptha. All rights reserved.
+ * @license    GNU General Public License http://www.gnu.org/copyleft/gpl.html
+ */
+
+ .button2-left
+{
+	margin-top:10px!important;
+	margin-left:0!important
+}
+	#swfupload-control p
+{
+	margin:10px 5px;
+	font-size:.9em
+}
+	#log
+{
+	margin:0;
+	padding:0;
+	width:500px
+}
+	#log li
+{
+	list-style-position:inside;
+	margin:2px;
+	border:1px solid #ccc;
+	padding:10px;
+	font-size:12px;
+	font-family:Arial,Helvetica,sans-serif;
+	color:#333;
+	background:#fff;
+	position:relative
+}
+	#log li .progressbar
+{
+	border:1px solid #333;
+	height:5px;
+	background:#fff
+}
+	#log li .progress
+{
+	background:#999;
+	width:0;
+	height:5px
+}
+	#log li p
+{
+	margin:0;
+	line-height:18px
+}
+	#log li.success
+{
+	border:1px solid #393;
+	background:#ccf9b9
+}
+	#log li span.cancel
+{
+	position:absolute;
+	top:5px;
+	right:5px;
+	width:20px;
+	height:20px;
+	background:url(js/swfupload/cancel.png) no-repeat;
+	cursor:pointer
+}
+	#swfupload-control table tr td
+{
+	font-size:1.091em
+}
+.item
+{
+	border:1px solid #CCC!important;
+	float:left;
+	margin:3px;
+	padding:0!important;
+	position:relative
+}
+.item a
+{
+	background:none repeat scroll 0 0 #FFF!important;
+	color:#000;
+	display:table-cell!important;
+	height:90px;
+	line-height:90px;
+	overflow:hidden;
+	text-align:center;
+	text-decoration:none;
+	vertical-align:middle;
+	width:80px
+}
+.item img
+{
+	border:0;
+	display:inline
+}
+.item span
+{
+	background-color:#EEE;
+	bottom:0;
+	clear:both;
+	display:block;
+	font-family:Tahoma,Verdana,sans-serif!important;
+	font-size:11px;
+	left:0;
+	line-height:100%;
+	overflow:hidden;
+	padding:2px 0;
+	position:absolute;
+	width:100%
+}
+
+div.cpanel-left {
+	float: left;
+	width: 40% !important;
+}
+
+#cpanel div.icon {
+	background: white;
+	float: left;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	text-align: center;
+}
+
+#cpanel div.icon a {
+	border: 1px solid #EAEAEA;
+	color: #565656;
+	display: block;
+	float: left;
+	height: 97px;
+	text-decoration: none;
+	vertical-align: middle;
+	width: 108px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#cpanel div.icon a:hover {
+	background: #FBFBFB;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #EEE;
+	border-right: 1px solid #CCC;
+	border-top: 1px solid #EEE;
+}
+
+#cpanel img {
+	margin: 0px auto;
+	padding: 10px 0px;
+}
+
+#cpanel span {
+	display: block;
+	text-align: center;
+	font-family: 'arial';
+	color: #8D8371;
+	font-size: 12px;
+}
+
+.banner {
+padding-bottom: 10px;
+}
+
+table.adminlist.table.table-striped tbody tr td a {
+display: inline-block;
+word-break: break-word;
+}

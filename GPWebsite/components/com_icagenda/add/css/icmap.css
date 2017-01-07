@@ -1,0 +1,94 @@
+/**
+ *------------------------------------------------------------------------------
+ *	CSS	iCagenda - Global
+ *------------------------------------------------------------------------------
+ * @package     com_icagenda
+ * @copyright   Copyright (c)2012-2015 Cyril Rezé, Jooml!C - All rights reserved
+ *
+ * @license     GNU General Public License version 3 or later; see LICENSE.txt
+ * @author      Cyril Rezé (Lyr!C)
+ * @link        http://www.joomlic.com
+ *
+ * @version     3.2.13 2014-01-29
+ * @since       3.0
+ *------------------------------------------------------------------------------
+*/
+
+
+.map-wrapper {
+	float:left;
+	width: 92%;
+	margin: 0 10px 0 10px;
+}
+
+#map {
+	border: 1px solid #DDD;
+	width: 100%;
+	height: 300px;
+	margin: 10px 0 10px 0;
+	-webkit-box-shadow: #AAA 0px 0px 15px;
+}
+
+/* Fixed Known conflict Bootstrap/Google Maps */
+#map img {
+	max-width: none;
+}
+
+#legend {
+	font-size: 12px;
+	font-style: italic;
+}
+
+.icmap-box {
+	margin-top: 30px;
+}
+
+.icmap-label {
+	float: left;
+	width: 140px;
+	padding-top: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+
+.icmap-input {
+	margin: 5px 0;
+}
+/* For img in the map remove borders, shadow, no margin and no max-width
+*/
+.map img, .svPanel img {
+    border: 0px;
+    box-shadow: none;
+    margin: 0px !important;
+    padding: 0px !important;
+    max-width: none !important;
+    background: none !important;
+}
+
+/* Make sure the directions are below the map
+*/
+.directions {
+    clear: left;
+}
+
+.adp-directions {
+    width: 100%;
+}
+
+/* Solve problems in chrome with the show of the direction steps in full width
+*/
+.adp-placemark {
+    width : 100%;
+}
+
+/* Padding for image overlay
+*/
+.controlDiv {
+    padding : 5px;
+}
+
+.google-map-canvas,
+.google-map-canvas * { .box-sizing(content-box); }
+
+/* Fixed Known conflict Bootstrap/Google Maps (joomla 3.2) */
+.icagenda_map img { max-width: none; }
